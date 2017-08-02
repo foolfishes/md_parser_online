@@ -1,2 +1,0 @@
-/usr/bin/ar cr libParserlib.a  CMakeFiles/Parserlib.dir/Parser.cpp.o CMakeFiles/Parserlib.dir/Mdfile.cpp.o
-/usr/bin/ranlib libParserlib.a

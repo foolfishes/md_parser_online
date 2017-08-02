@@ -1,3 +1,0 @@
-/home/centos/Documents/Md_Parser_Online/server_test/build/Parser/CMakeFiles/Parserlib.dir
-/home/centos/Documents/Md_Parser_Online/server_test/build/ThreadPool/CMakeFiles/Poollib.dir
-/home/centos/Documents/Md_Parser_Online/server_test/build/CMakeFiles/server.dir

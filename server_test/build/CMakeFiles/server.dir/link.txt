@@ -1,1 +1,0 @@
-g++   -g -Wall -std=c++0x -lpthread    CMakeFiles/server.dir/server_test.cpp.o  -o server -rdynamic ThreadPool/libPoollib.a Parser/libParserlib.a 
