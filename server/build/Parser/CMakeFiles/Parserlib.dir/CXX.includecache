@@ -1,0 +1,36 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/centos/Documents/Md_Parser_Online/server/Parser/Mdfile.cpp
+Mdfile.h
+/home/centos/Documents/Md_Parser_Online/server/Parser/Mdfile.h
+
+/home/centos/Documents/Md_Parser_Online/server/Parser/Mdfile.h
+iostream
+-
+fstream
+-
+string
+-
+../ThreadPool/Debug.h
+/home/centos/Documents/Md_Parser_Online/server/ThreadPool/Debug.h
+
+/home/centos/Documents/Md_Parser_Online/server/Parser/Parser.cpp
+Parser.h
+/home/centos/Documents/Md_Parser_Online/server/Parser/Parser.h
+
+/home/centos/Documents/Md_Parser_Online/server/Parser/Parser.h
+Mdfile.h
+/home/centos/Documents/Md_Parser_Online/server/Parser/Mdfile.h
+regex
+-
+
+/home/centos/Documents/Md_Parser_Online/server/ThreadPool/Debug.h
+stdio.h
+-
+

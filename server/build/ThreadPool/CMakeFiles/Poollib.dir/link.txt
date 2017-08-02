@@ -1,0 +1,2 @@
+/usr/bin/ar cr libPoollib.a  CMakeFiles/Poollib.dir/ThreadPool.cpp.o CMakeFiles/Poollib.dir/SynThread.cpp.o CMakeFiles/Poollib.dir/Task.cpp.o CMakeFiles/Poollib.dir/Mutex.cpp.o
+/usr/bin/ranlib libPoollib.a

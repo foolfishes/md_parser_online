@@ -1,0 +1,1 @@
+g++   -g -Wall -std=c++0x -lpthread    CMakeFiles/client.dir/test.cpp.o CMakeFiles/client.dir/client.cpp.o  -o client -rdynamic 

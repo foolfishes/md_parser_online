@@ -1,0 +1,1 @@
+/home/centos/Documents/Md_Parser_Online/client/build/CMakeFiles/client.dir

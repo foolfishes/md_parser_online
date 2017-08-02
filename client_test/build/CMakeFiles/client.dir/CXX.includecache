@@ -1,0 +1,32 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/centos/Documents/Md_Parser_Online/client_test/client_test.cpp
+sys/types.h
+-
+sys/socket.h
+-
+stdio.h
+-
+stdlib.h
+-
+unistd.h
+-
+string.h
+-
+netinet/in.h
+-
+arpa/inet.h
+-
+iostream
+-
+fstream
+-
+string
+-
+
