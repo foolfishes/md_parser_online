@@ -27,7 +27,7 @@ int main()
 
   events = (epoll_event *)calloc(MAXEVENTS, sizeof(event));
   event.data.fd = listenfd;
-  event.events = EPOLLIN | EPOLLET;
+  event.events = EPOLLIN;
   epollfd = epoll_create(3);   //3 is random no use
   epoll_ctl(epollfd,EPOLL_CTL_ADD,listenfd,&event);  //add fd to epool
 
@@ -54,7 +54,7 @@ int main()
         std::cout << "accapt a connection from " << str << std::endl;
 
         event.data.fd = connectfd;
-        event.events = EPOLLIN | EPOLLET;
+        event.events = EPOLLIN;
         epoll_ctl(epollfd, EPOLL_CTL_ADD, connectfd, &event);
       }
       else    //data to read
